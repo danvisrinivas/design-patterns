@@ -9,6 +9,8 @@ public class ProductAPI {
 //        ProductWebClient.getAllProducts();
 //        ProductWebClient.getAllProducts();
 //        ProductWebClient.getAllProducts();
+//        ProductWebClient.getAllProducts();
+//        ProductWebClient.getAllProducts();
         ExecutorService executorService = Executors.newFixedThreadPool(5);
 
         executorService.execute(ProductWebClient::getAllProducts);
